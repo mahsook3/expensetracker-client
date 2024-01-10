@@ -1,0 +1,30 @@
+[
+    {
+      "day": "1",
+      "month": "January",
+      "title": "Rent",
+      "type": "debit",
+      "budget": "1200"
+    },
+    {
+      "day": "15",
+      "month": "January",
+      "title": "Groceries",
+      "type": "debit",
+      "budget": "200"
+    },
+    {
+      "day": "30",
+      "month": "January",
+      "title": "Electricity Bill",
+      "type": "debit",
+      "budget": "100"
+    },
+    {
+      "day": "5",
+      "month": "February",
+      "title": "Gym Membership",
+      "type": "debit",
+      "budget": "50"
+    }
+  ]
