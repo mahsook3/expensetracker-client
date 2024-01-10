@@ -41,7 +41,7 @@ const AddExpense = () => {
       type: type === '1' ? 'credit' : 'debit',
     };
   
-    fetch('http://localhost:8000/expenses', {
+    fetch('https://expensetracker-server-ekhi.onrender.com/expenses', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

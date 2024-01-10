@@ -16,7 +16,7 @@ const ExpenseItems = ({ id, day, month, title, type, budget, onItemDeleted }) =>
   const handleSave = async () => {
     setIsEditing(false);
     try {
-      const response = await fetch(`http://localhost:8000/expenses/${id}`, {
+      const response = await fetch(`https://expensetracker-server-ekhi.onrender.com/expenses/${id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -44,7 +44,7 @@ const ExpenseItems = ({ id, day, month, title, type, budget, onItemDeleted }) =>
   
   const handleDelete = async () => {
     try {
-      const response = await fetch(`http://localhost:8000/expenses/${id}`, {
+      const response = await fetch(`https://expensetracker-server-ekhi.onrender.com/expenses/${id}`, {
         method: 'DELETE',
       });
       if (!response.ok) {

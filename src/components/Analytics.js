@@ -10,7 +10,7 @@ const Analytics = () => {
   const [details, setDetails] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8000/expenses')
+    fetch('https://expensetracker-server-ekhi.onrender.com/expenses')
       .then(response => response.json())
       .then(data => setDetails(data))
       .catch(error => console.error('Error:', error));
