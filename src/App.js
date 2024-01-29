@@ -14,10 +14,10 @@ function App() {
       <div className="flexbox">
         <SideBar />
         <Routes>
-          <Route path="/" element={<Expenses />} />
-          <Route path="/add-expense" element={<AddExpense />} />
-          <Route path="/analytics" element={<Analytics />} />
-          <Route path="/" element={<Expenses />} />
+          <Route path="/" element={<Expenses/>} />
+          <Route path="/add-expense" element={<AddExpense/>} />
+          <Route path="/analytics" element={<Analytics/>} />
+          <Route path="/" element={<Expenses/>} />
         </Routes>
       </div>
     </Router>
